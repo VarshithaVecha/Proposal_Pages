@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(248, 198, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    height:246px;
+    width:246px;
+    background-size: cover;
+    border-radius: 5px;
+}
+.page5{
+    margin-top:20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.word{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "Lakki Reddy", serif;
+    font-size: larger;
+    animation: bounce 5s ease-in 0s 3 none;
+}
+@keyframes bounce{
+    0%,20%,50%,80%,100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
